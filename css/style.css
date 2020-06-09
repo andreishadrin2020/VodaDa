@@ -1,0 +1,1042 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    max-width: 1920px;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.header {
+    width: 1887px;
+    height: 100px;
+    background: #1E90FF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0; left: 8px;
+    margin-right: 8px;
+}
+.header__number {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-left: 170px;
+}
+.logo {
+    width: 361px;
+    height: 68px;
+    margin-left: 200px;
+    background-image: url(../img/logo1920.png);
+    background-repeat: no-repeat;
+}
+.nav {
+    margin-right: 170px;
+}
+.nav__link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.nav__link:not(:last-child) {
+    margin-right: 20px;
+}
+.nav__link:hover {
+    font-size: 23px;
+}
+.info {
+    width: 100%;
+    height: 696px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.info__text {
+    margin-left: 170px;
+    margin-top: 100px;
+}
+.text__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    color: #000000;
+}
+.text__subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    color: #000000;
+    margin-top: 30px;
+}
+.info__img {
+    margin-right: 170px;
+    width: 745px;
+    height: 496px;
+    margin-top: 45px;
+}
+.about-company {
+    width: 100%;
+    height: 1462px;
+    background: #1E90FF;
+}
+.about__text-block {
+    display: flex;
+    justify-content: space-between;
+}
+.about__text {
+    padding-top: 50px;
+    margin-left: 170px;
+}
+.about__text-title {
+    font-weight: 500;
+    font-size: 46px;
+    color: #FFFFFF;
+}
+.about__text-subtitle {
+    font-family: 'Inter';
+    width: 900px;
+    font-weight: normal;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.about__tick {
+    margin-top: 175px;
+}
+.tick {
+    display: flex;
+    align-items: center;
+    margin-right: 170px;
+}
+.tick__text {
+    font-family: 'Inter';
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+.about__img {
+    margin-left: 180px;
+    margin-top: 40px;
+}
+.place {
+    width: 100%;
+    height: 489px;
+}
+.place__title {
+    font-weight: 500;
+    font-size: 46px;
+    color: #000000;
+    margin-left: 170px;
+    padding-top: 50px;
+}
+.places__top {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 90px;
+    border-bottom: 4px #1E90FF solid;
+    padding-bottom: 50px;
+}
+.places__down {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 170px;
+    margin-right: 170px;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+.span__place {
+    font-family: 'Inter';
+    font-size: 38px;
+    color: #444444;
+}
+.contacts {
+    width: 100%;
+    height: 730px;
+    background: #1E90FF;
+}
+.contacts__title {
+    font-weight: 500;
+    font-size: 46px;
+    color: #FFFFFF;
+    padding-top: 50px;
+    margin-left: 170px;
+}
+.contacts__text {
+    padding-top: 50px;
+}
+.contacts__numbers {
+    display: flex;
+}
+.numbers {
+    display: flex;
+    flex-direction: column;
+}
+.number__title {
+    margin-right: 20px;
+}
+.contacts__span {
+    font-family: 'Inter';
+    font-size: 46px;
+    color: #FFFFFF;
+}
+.contacts__numbers, .e-mail, .office, .adress {
+    margin-left: 170px;
+}
+footer {
+    width: 100%;
+    height: 269px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__number, .footer__e-mail {
+    font-family: 'Inter';
+    font-size: 46px;
+    color: #515151;
+}
+.footer__logo {
+    width: 361px;
+    height: 68px;
+    background-image: url(../img/footer1920.png);
+    margin-left: 170px;
+    background-repeat: no-repeat;
+}
+.footer__text {
+    margin-right: 170px;
+}
+
+@media (max-width: 1440px) {
+    .header {
+        width: 100%;
+    }
+    .header__number {
+        margin-left: 127px;
+        font-size: 20px;
+    }
+    .logo {
+        background-image: url(../img/logo1440.png);
+        margin-top: 20px; 
+    }
+    .nav {
+        margin-right: 127px;
+    }
+    .nav__link {
+        font-size: 18px;
+    }
+    .nav__link:hover {
+        font-size: 20px;
+    }
+    .info {
+        width: 100%;
+        height: 630px;
+    }
+    .info__img {
+        width: 660px;
+        height: 439px;
+        margin-right: 127px;
+    }
+    .info__text {
+        margin-left: 127px;
+    }
+    .text__title {
+        font-size: 36px;
+    }
+    .text__subtitle {
+        font-size: 30px;
+    }
+    .about-company {
+        height: 1200px;
+    }
+    .about__text {
+        margin-left: 127px;
+    }
+    .tick {
+        margin-right: 127px;
+    }
+    .about__text-title {
+        font-size: 38px;
+    }
+    .about__text-subtitle {
+        font-size: 25px;
+        width: 500px;
+    }
+    .img__tick {
+        width: 46px;
+        height: 40px;
+    }
+    .tick__text {
+        font-size: 30px;
+    }
+    .about__img {
+        width: 1121px;
+        height: 631px;
+        margin-left: 150px;
+    }
+    .place {
+        height: 400px;
+    }
+    .place__title {
+        font-size: 36px;
+        margin-left: 127px;
+    }
+    .places__top {
+        margin-left: 127px;
+        margin-right: 127px;
+        padding-bottom: 30px;
+    }
+    .places__down {
+        margin-left: 127px;
+        margin-right: 127px;
+        margin-top: 30px;
+    }
+    .span__place {
+        font-size: 30px;
+    }
+    .contacts {
+        height: 540px;
+    }
+    .contacts__title {
+        font-size: 36px;
+        margin-left: 127px;
+    }
+    .contacts__numbers, .e-mail, .office, .adress {
+        margin-left: 127px;
+    }
+    .contacts__span {
+        font-size: 30px;
+    }
+    footer {
+        height: 200px;
+    }
+    .footer__logo {
+        width: 285px;
+        height: 49px;
+        background-image: url(../img/footer1440.png);
+        margin-left: 127px;
+    }
+    .footer__number, .footer__e-mail {
+        font-size: 36px;
+    }
+    .footer__text {
+        margin-right: 127px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header {
+        width: 100%;
+        height: 90px;
+    }
+    .header__number {
+        display: none;
+    }
+    .logo {
+        background-image: url(../img/logo1024.png);
+        margin-top: 27px;
+        margin-left: 50px; 
+    }
+    .nav {
+        margin-right: 50px;
+    }
+    .nav__link {
+        font-size: 18px;
+    }
+    .nav__link:hover {
+        font-size: 20px;
+    }
+    .info {
+        height: 430px;
+        margin-top: 50px;
+    }
+    .info__img {
+        width: 451px;
+        height: 287px;
+        margin-right: 50px;
+    }
+    .info__text {
+        margin-left: 50px;
+    }
+    .text__title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .text__subtitle {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .about-company {
+        height: 760px;
+    }
+    .about__text {
+        margin-left: 50px;
+        padding: 25px;
+    }
+    .about__tick {
+        margin-top: 100px;
+    }
+    .tick {
+        margin-right: 50px;
+    }
+    .about__text-title {
+        font-size: 28px;
+    }
+    .about__text-subtitle {
+        font-size: 20px;
+        width: 435px;
+        margin-top: 20px;
+    }
+    .img__tick {
+        width: 40px;
+        height: 35px;
+    }
+    .tick__text {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    .about__img {
+        width: 774px;
+        height: 436px;
+        margin-left: 115px;
+        margin-top: 0px;
+    }
+    .place {
+        height: 260px;
+    }
+    .place__title {
+        font-size: 28px;
+        margin-left: 50px;
+        padding-top: 30px;
+    }
+    .places__top {
+        margin-left: 50px;
+        margin-right: 50px;
+        padding-bottom: 25px;
+        margin-top: 40px;
+    }
+    .places__down {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 25px;
+    }
+    .span__place {
+        font-size: 25px;
+    }
+    .contacts {
+        height: 470px;
+    }
+    .contacts__title {
+        font-size: 28px;
+        margin-left: 50px;
+    }
+    .contacts__text {
+        padding: 20;
+    }
+    .contacts__numbers, .e-mail, .office, .adress {
+        margin-left: 50px;
+    }
+    .contacts__span {
+        font-size: 25px;
+    }
+    footer {
+        height: 150px;
+    }
+    .footer__logo {
+        width: 285px;
+        height: 49px;
+        background-image: url(../img/footer1024.png);
+        margin-left: 50px;
+    }
+    .footer__number, .footer__e-mail {
+        font-size: 28px;
+    }
+    .footer__text {
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: 100%;
+        height: 70px;
+    }
+    .header__number {
+        display: none;
+    }
+    .logo {
+        background-image: url(../img/logo768.png);
+        margin-top: 40px;
+        margin-left: 35px; 
+    }
+    .nav {
+        margin-right: 35px;
+    }
+    .nav__link {
+        font-size: 12px;
+    }
+    .nav__link:hover {
+        font-size: 14px;
+    }
+    .info {
+        height: 345px;
+        margin-top: 20px;
+    }
+    .info__img {
+        width: 339px;
+        height: 216px;
+        margin-right: 35px;
+    }
+    .info__text {
+        margin-left: 35px;
+    }
+    .text__title {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .text__subtitle {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .about-company {
+        height: 580px;
+    }
+    .about__text {
+        margin-left: 35px;
+        padding: 25px;
+    }
+    .about__tick {
+        margin-top: 75px;
+    }
+    .tick {
+        margin-right: 35px;
+    }
+    .about__text-title {
+        font-size: 18px;
+    }
+    .about__text-subtitle {
+        font-size: 14px;
+        width: 305px;
+        margin-top: 20px;
+    }
+    .img__tick {
+        width: 31px;
+        height: 27px;
+    }
+    .tick__text {
+        font-size: 14px;
+        line-height: 19px;
+    }
+    .about__img {
+        width: 578px;
+        height: 326px;
+        margin-left: 90px;
+        margin-top: 0px;
+    }
+    .place {
+        height: 165px;
+    }
+    .place__title {
+        font-size: 18px;
+        margin-left: 35px;
+        padding-top: 25px;
+    }
+    .places__top {
+        margin-left: 35px;
+        margin-right: 35px;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        border-bottom: 2px #1E90FF solid;
+    }
+    .places__down {
+        margin-left: 35px;
+        margin-right: 35px;
+        margin-top: 15px;
+    }
+    .span__place {
+        font-size: 16px;
+    }
+    .contacts {
+        height: 330px;
+    }
+    .contacts__title {
+        font-size: 20px;
+        margin-left: 35px;
+        padding-top: 30px;
+    }
+    .contacts__text {
+        padding: 20px;
+    }
+    .contacts__numbers, .e-mail, .office, .adress {
+        margin-left: 15px;
+    }
+    .contacts__span {
+        font-size: 20px;
+    }
+    footer {
+        height: 105px;
+    }
+    .footer__logo {
+        width: 285px;
+        height: 49px;
+        background-image: url(../img/footer768.png);
+        margin-left: 35px;
+        margin-top: 25px;
+    }
+    .footer__number, .footer__e-mail {
+        font-size: 18px;
+    }
+    .footer__text {
+        margin-right: 35px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header {
+        width: 100%;
+        height: 80px;
+        
+    }
+    .header__number {
+        display: none;
+    }
+    .logo {
+        background-image: url(../img/logo768.png);
+        margin-top: 35px;
+        margin-left: 20px;
+        margin-right: 0; 
+    }
+    .nav {
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__link {
+        font-size: 10px;
+        width: 90px;
+    }
+    .nav__link:hover {
+        font-size: 12px;
+    }
+    .nav__link:not(:last-child) {
+        margin-right: 0px;
+    }    
+    .info {
+        height: 225px;
+        margin-top: 20px;
+    }
+    .info__img {
+        width: 182px;
+        height: 116px;
+        margin-right: 20px;
+    }
+    .info__text {
+        margin-left: 20px;
+    }
+    .text__title {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .text__subtitle {
+        font-size: 10px;
+        line-height: 12px;
+        margin-top: 10px;
+    }
+    .about-company {
+        height: 325px;
+    }
+    .about__text {
+        margin-left: 5px;
+        padding: 15px;
+    }
+    .about__tick {
+        margin-top: 50px;
+    }
+    .tick {
+        margin-right: 20px;
+    }
+    .about__text-title {
+        font-size: 14px;
+    }
+    .about__text-subtitle {
+        font-size: 8px;
+        width: 181px;
+        margin-top: 10px;
+    }
+    .img__tick {
+        width: 16px;
+        height: 14px;
+    }
+    .tick__text {
+        font-size: 8px;
+        line-height: 12px;
+        margin-left: 10px;
+    }
+    .about__img {
+        width: 310px;
+        height: 176px;
+        margin-left: 45px;
+        margin-top: 0px;
+    }
+    .place {
+        height: 100px;
+    }
+    .place__title {
+        font-size: 14px;
+        margin-left: 20px;
+        padding-top: 15px;
+    }
+    .places__top {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 10px;
+        margin-top: 10px;
+        border-bottom: 2px #1E90FF solid;
+    }
+    .places__down {
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    .span__place {
+        font-size: 10px;
+    }
+    .contacts {
+        height: 220px;
+    }
+    .contacts__title {
+        font-size: 14px;
+        margin-left: 20px;
+        padding-top: 20px;
+    }
+    .contacts__text {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    .contacts__numbers, .e-mail, .office, .adress {
+        margin-left: 20px;
+    }
+    .contacts__span {
+        font-size: 14px;
+    }
+    footer {
+        height: 60px;
+    }
+    .footer__logo {
+        width: 285px;
+        height: 49px;
+        background-image: url(../img/footer414.png);
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .footer__number, .footer__e-mail {
+        font-size: 10px;
+        width: 180px;
+    }
+    .footer__text {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        width: 360px;
+        height: 80px;       
+    }
+    .header__number {
+        display: none;
+    }
+    .logo {
+        background-image: url(../img/logo414.png);
+        margin-top: 45px;
+        margin-left: 15px;
+        margin-right: 0; 
+    }
+    .nav {
+        margin-right: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__link {
+        font-size: 10px;
+        width: 90px;
+    }
+    .nav__link:hover {
+        font-size: 12px;
+    }
+    .nav__link:not(:last-child) {
+        margin-right: 0px;
+    }    
+    .info {
+        height: 200px;
+        margin-top: 5px;
+    }
+    .info__img {
+        width: 142px;
+        height: 91px;
+        margin-right: 15px;
+    }
+    .info__text {
+        margin-left: 15px;
+    }
+    .text__title {
+        font-size: 8px;
+        line-height: 9px;
+    }
+    .text__subtitle {
+        font-size: 8px;
+        line-height: 9px;
+        margin-top: 10px;
+    }
+    .about-company {
+        height: 250px;
+    }
+    .about__text {
+        margin-left: 5px;
+        padding: 10px;
+    }
+    .about__tick {
+        margin-top: 40px;
+    }
+    .tick {
+        margin-right: 15px;
+    }
+    .about__text-title {
+        font-size: 10px;
+    }
+    .about__text-subtitle {
+        font-size: 6px;
+        width: 142px;
+        margin-top: 10px;
+    }
+    .img__tick {
+        width: 11px;
+        height: 10px;
+    }
+    .tick__text {
+        font-size: 6px;
+        line-height: 7px;
+        margin-left: 5px;
+    }
+    .about__img {
+        width: 240px;
+        height: 137px;
+        margin-left: 60px;
+        margin-top: 0px;
+    }
+    .place {
+        height: 75px;
+    }
+    .place__title {
+        font-size: 10px;
+        margin-left: 15px;
+        padding-top: 10px;
+    }
+    .places__top {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        border-bottom: 1px #1E90FF solid;
+    }
+    .places__down {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 5px;
+    }
+    .span__place {
+        font-size: 8px;
+    }
+    .contacts {
+        height: 165px;
+    }
+    .contacts__title {
+        font-size: 10px;
+        margin-left: 15px;
+        padding-top: 15px;
+    }
+    .contacts__text {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    .contacts__numbers, .e-mail, .office, .adress {
+        margin-left: 15px;
+    }
+    .contacts__span {
+        font-size: 10px;
+    }
+    footer {
+        height: 60px;
+    }
+    .footer__logo {
+        width: 285px;
+        height: 49px;
+        background-image: url(../img/footer320.png);
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+    .footer__number, .footer__e-mail {
+        font-size: 8px;
+        width: 145px;
+    }
+    .footer__text {
+        margin-right: 15px;
+    }
+}
+
+@media (max-width: 320px) {
+    .header {
+        width: 304px;
+        height: 80px;       
+    }
+    .header__number {
+        display: none;
+    }
+    .logo {
+        background-image: url(../img/logo414.png);
+        margin-top: 45px;
+        margin-left: 15px;
+        margin-right: 0; 
+    }
+    .nav {
+        margin-right: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .nav__link {
+        font-size: 10px;
+        width: 90px;
+    }
+    .nav__link:hover {
+        font-size: 12px;
+    }
+    .nav__link:not(:last-child) {
+        margin-right: 0px;
+    }    
+    .info {
+        height: 200px;
+        margin-top: 5px;
+    }
+    .info__img {
+        width: 142px;
+        height: 91px;
+        margin-right: 15px;
+    }
+    .info__text {
+        margin-left: 15px;
+    }
+    .text__title {
+        font-size: 8px;
+        line-height: 9px;
+    }
+    .text__subtitle {
+        font-size: 8px;
+        line-height: 9px;
+        margin-top: 10px;
+    }
+    .about-company {
+        height: 250px;
+    }
+    .about__text {
+        margin-left: 5px;
+        padding: 10px;
+    }
+    .about__tick {
+        margin-top: 40px;
+    }
+    .tick {
+        margin-right: 15px;
+    }
+    .about__text-title {
+        font-size: 10px;
+    }
+    .about__text-subtitle {
+        font-size: 6px;
+        width: 142px;
+        margin-top: 10px;
+    }
+    .img__tick {
+        width: 11px;
+        height: 10px;
+    }
+    .tick__text {
+        font-size: 6px;
+        line-height: 7px;
+        margin-left: 5px;
+    }
+    .about__img {
+        width: 240px;
+        height: 137px;
+        margin-left: 33px;
+        margin-top: 0px;
+    }
+    .place {
+        height: 75px;
+    }
+    .place__title {
+        font-size: 10px;
+        margin-left: 15px;
+        padding-top: 10px;
+    }
+    .places__top {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 5px;
+        margin-top: 10px;
+        border-bottom: 1px #1E90FF solid;
+    }
+    .places__down {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 5px;
+    }
+    .span__place {
+        font-size: 8px;
+    }
+    .contacts {
+        height: 165px;
+    }
+    .contacts__title {
+        font-size: 10px;
+        margin-left: 15px;
+        padding-top: 15px;
+    }
+    .contacts__text {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    .contacts__numbers, .e-mail, .office, .adress {
+        margin-left: 15px;
+    }
+    .contacts__span {
+        font-size: 10px;
+    }
+    footer {
+        height: 45px;
+    }
+    .footer__logo {
+        width: 285px;
+        height: 49px;
+        background-image: url(../img/footer320.png);
+        margin-left: 15px;
+        margin-top: 33px;
+    }
+    .footer__number, .footer__e-mail {
+        font-size: 8px;
+        width: 145px;
+    }
+    .footer__text {
+        margin-right: 15px;
+    }
+}
